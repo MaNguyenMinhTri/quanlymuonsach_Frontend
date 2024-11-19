@@ -18,7 +18,7 @@ export default {
 <template>
     <Header></Header>
     <main class="container">
-        <h3 class="text-center text-sky-400 m-2 py-12">Đọc sách đi ông cháu ơi</h3>
+        <h3 class="text-center text-sky-400 m-2 py-12">Danh sách sách</h3>
         <BookList></BookList>
     </main>
     <Footer></Footer>

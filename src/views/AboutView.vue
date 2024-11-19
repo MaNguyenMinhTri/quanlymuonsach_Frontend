@@ -19,7 +19,8 @@ export default {
   <Header></Header>
   <main class="container">
     <h2 class="text-center m-2">Phát triển ứng dụng web</h2>
-    <div class="bg-white/30 ..."><img src="../assets/img/R.jpg" alt="" /></div>
+    <h3 class="text-center m-2">B2111869</h3>
+    <h3 class="text-center m-2">Mã Nguyễn Minh Trí</h3>
   </main>
   <Footer></Footer>
 </template>
