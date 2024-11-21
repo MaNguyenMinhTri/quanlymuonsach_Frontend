@@ -55,7 +55,6 @@ export default {
                         <div class="row">
                             <div class="col-6">
                                 <p class="text-decoration-none" m="t-0 b-2">Tên: {{ scope.row?.tensach }}</p>
-                                <p m="t-0 b-2">Giá: {{ scope.row?.dongia }}</p>
                                 <p m="t-0 b-2">Số lượng: {{ scope.row?.soquyen }}</p>
                                 <p m="t-0 b-2">Năm xuất bản: {{ new Date(scope.row?.namxuatban).getFullYear() }}</p>
                             </div>
@@ -75,7 +74,6 @@ export default {
                         </router-link>
                     </template>
                 </el-table-column>
-                <el-table-column label="Giá" prop="dongia" />
                 <el-table-column label="Tồn">
                     <template #default="scope">
                         {{ scope?.row?.soquyen - scope.row?.soquyendamuon || 0 }}

@@ -18,9 +18,8 @@ export default {
 <template>
     <Header></Header>
     <main class="container ">
-        <h1 class="text-center text-black-400">Đây là contact </h1>
         <h2 class="text-center">Phát triển ứng dụng web</h2>
-        
+
     </main>
     <Footer></Footer>
 </template>

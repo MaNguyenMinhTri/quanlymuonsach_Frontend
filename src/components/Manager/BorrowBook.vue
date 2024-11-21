@@ -92,12 +92,6 @@ export default {
                     </el-select>
                 </template>
             </el-table-column>
-            <el-table-column label="Đơn giá" prop="chiphi">
-                <template #default="scope">
-                    {{ tinhChiPhi(scope.row.ngaymuon, scope.row.masach.dongia) }}
-                    VND
-                </template>
-            </el-table-column>
             <el-table-column align="right">
                 <template #default="scope">
                     <el-button size="small"

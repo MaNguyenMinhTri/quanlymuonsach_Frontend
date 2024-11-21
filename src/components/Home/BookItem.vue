@@ -34,10 +34,6 @@ export default {
                     Tác giả: {{
                         data.tacgia
                     }}</span>
-                <p class="text-sm mt-0 text-orange-500">
-                    Đơn giá: <span class="text-orange-500 font-semibold text-base">{{ data.dongia }} Đồng</span>
-                </p>
-
                 <p class="text-sm mt-0">
                     Còn lại:
                     <span class="font-semibold text-base">{{ data?.soquyen - data?.soquyendamuon || 0 }}</span>

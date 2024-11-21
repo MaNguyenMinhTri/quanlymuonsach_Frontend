@@ -51,10 +51,10 @@ export default {
 
                     <ul class="dropdown-menu" aria-labelledby="login-btn">
                         <li>
-                            <router-link class="dropdown-item" to="/login">Người dùng</router-link>
+                            <router-link class="dropdown-item" to="/login">Đăng nhập</router-link>
                         </li>
                         <li>
-                            <router-link class="dropdown-item" to="/loginmanager">Admin</router-link>
+                            <router-link class="dropdown-item" to="/signup">Đăng ký</router-link>
                         </li>
                     </ul>
                 </div>
